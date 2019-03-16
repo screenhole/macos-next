@@ -61,9 +61,9 @@
 		DF72C3B5223CB83B0019E344 /* Screenhole */ = {
 			isa = PBXGroup;
 			children = (
-				DF72C3D2223CCF9A0019E344 /* utils */,
-				DF72C3C4223CBCA20019E344 /* models */,
-				DF72C3C7223CBFF20019E344 /* repositories */,
+				DF72C3D2223CCF9A0019E344 /* Utilities */,
+				DF72C3C4223CBCA20019E344 /* Models */,
+				DF72C3C7223CBFF20019E344 /* Repositories */,
 				DF72C3B6223CB83B0019E344 /* AppDelegate.swift */,
 				DF72C3B8223CB83C0019E344 /* Assets.xcassets */,
 				DF72C3BA223CB83C0019E344 /* MainMenu.xib */,
@@ -73,30 +73,30 @@
 			path = Screenhole;
 			sourceTree = "<group>";
 		};
-		DF72C3C4223CBCA20019E344 /* models */ = {
+		DF72C3C4223CBCA20019E344 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				DF72C3C5223CBCFA0019E344 /* Session.swift */,
 				DF72C3CE223CCDD40019E344 /* Grab.swift */,
 			);
-			path = models;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		DF72C3C7223CBFF20019E344 /* repositories */ = {
+		DF72C3C7223CBFF20019E344 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
 				DF72C3CA223CC0840019E344 /* SessionRepository.swift */,
 				DF72C3D0223CCF720019E344 /* GrabRepository.swift */,
 			);
-			path = repositories;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
-		DF72C3D2223CCF9A0019E344 /* utils */ = {
+		DF72C3D2223CCF9A0019E344 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				DF72C3D3223CCFC50019E344 /* ApiClient.swift */,
 			);
-			path = utils;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
