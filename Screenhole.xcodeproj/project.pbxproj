@@ -29,6 +29,7 @@
 		DF72C3CE223CCDD40019E344 /* Grab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grab.swift; sourceTree = "<group>"; };
 		DF72C3D0223CCF720019E344 /* GrabRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabRepository.swift; sourceTree = "<group>"; };
 		DF72C3D3223CCFC50019E344 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		DF72C3D5223CD1CC0019E344 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		DF72C3AA223CB83B0019E344 = {
 			isa = PBXGroup;
 			children = (
+				DF72C3D5223CD1CC0019E344 /* README.md */,
 				DF72C3B5223CB83B0019E344 /* Screenhole */,
 				DF72C3B4223CB83B0019E344 /* Products */,
 			);
