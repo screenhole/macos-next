@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Screenhole
-//
-//  Created by Josh McMillan on 16/03/2019.
-//  Copyright © 2019 Screenhole. All rights reserved.
-//
-
 import Cocoa
 
 @NSApplicationMain
