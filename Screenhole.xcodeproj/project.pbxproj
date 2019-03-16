@@ -10,6 +10,8 @@
 		DF72C3B7223CB83B0019E344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72C3B6223CB83B0019E344 /* AppDelegate.swift */; };
 		DF72C3B9223CB83C0019E344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF72C3B8223CB83C0019E344 /* Assets.xcassets */; };
 		DF72C3BC223CB83C0019E344 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF72C3BA223CB83C0019E344 /* MainMenu.xib */; };
+		DF72C3C6223CBCFA0019E344 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72C3C5223CBCFA0019E344 /* Session.swift */; };
+		DF72C3CB223CC0840019E344 /* SessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF72C3CA223CC0840019E344 /* SessionRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DF72C3BB223CB83C0019E344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DF72C3BD223CB83C0019E344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF72C3BE223CB83C0019E344 /* Screenhole.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenhole.entitlements; sourceTree = "<group>"; };
+		DF72C3C5223CBCFA0019E344 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		DF72C3CA223CC0840019E344 /* SessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		DF72C3B5223CB83B0019E344 /* Screenhole */ = {
 			isa = PBXGroup;
 			children = (
+				DF72C3C4223CBCA20019E344 /* models */,
+				DF72C3C7223CBFF20019E344 /* repositories */,
 				DF72C3B6223CB83B0019E344 /* AppDelegate.swift */,
 				DF72C3B8223CB83C0019E344 /* Assets.xcassets */,
 				DF72C3BA223CB83C0019E344 /* MainMenu.xib */,
@@ -58,6 +64,22 @@
 				DF72C3BE223CB83C0019E344 /* Screenhole.entitlements */,
 			);
 			path = Screenhole;
+			sourceTree = "<group>";
+		};
+		DF72C3C4223CBCA20019E344 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DF72C3C5223CBCFA0019E344 /* Session.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DF72C3C7223CBFF20019E344 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DF72C3CA223CC0840019E344 /* SessionRepository.swift */,
+			);
+			path = repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF72C3B7223CB83B0019E344 /* AppDelegate.swift in Sources */,
+				DF72C3CB223CC0840019E344 /* SessionRepository.swift in Sources */,
+				DF72C3C6223CBCFA0019E344 /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
